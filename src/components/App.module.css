@@ -18,3 +18,10 @@
     width: 400px;
   };
 }
+
+.title {
+  font-size: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #36271f;
+  margin-bottom: 10px;
+}

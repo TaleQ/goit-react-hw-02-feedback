@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Section = ({ title, children }) => (
   <section>
-    <h1 className={css.title}>{title}</h1>
+    <h2 className={css.title}>{title}</h2>
     {children}
     </section>);
   

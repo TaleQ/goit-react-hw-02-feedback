@@ -24,12 +24,9 @@ export class App extends Component {
     return positiveFeedback;
   };
   render() {
-    console.log(this.state);
     return (
       <div className={css.app}>
-        {/* <Section title="Espresso Cafe">
-          <p>Your opinion is very important to us!</p>
-        </Section> */}
+        <h1 className={css.title}>Expresso Cafe</h1>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
